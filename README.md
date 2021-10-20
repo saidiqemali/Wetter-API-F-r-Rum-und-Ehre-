@@ -14,7 +14,7 @@ Wir wollen die Wetteranzeigen verständlicher und einfacher anzeigen. Damit man 
 
 
 ## Idee Umsetzung:
- 
+Als erstes haben wir dieses GitHub Repository erstelt und dann verschiedene Commits gemacht.
  
 ## API-Link:
  
