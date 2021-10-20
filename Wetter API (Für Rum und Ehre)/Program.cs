@@ -12,7 +12,14 @@ namespace Wetter_API__Für_Rum_und_Ehre_
 
             HttpClient httpClient = new HttpClient();
 
-            HttpResponseMessage httpResponse = httpClient.GetAsync().Result;
+            string requestUri = "api.openweathermap.org/data/2.5/weather?q=Buelach&appid={14ef7fc4abca59f2800df70ab9c334f6}";
+
+            HttpResponseMessage httpResponse = httpClient.GetAsync(requestUri).Result;
+
+            string response = httpResponse.Content.ReadAsStringAsync().Result;
+            Console.WriteLine(response);
+
+            Console.ReadKey();
         }
     }
 }
