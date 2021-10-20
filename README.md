@@ -7,7 +7,7 @@
 
 ## Unsere Idee:
 
-Wir wollen das Wetter in verschiedenen Großstädten der Welt anzeigen. Dazu wollen wir auch noch die verschiedenen Klimaszenarien bis 2100 darstellen. Ein weiterer Punkt ist die gewünschte Uhrzeit an zu zeigen.
+Wir wollen das Wetter in verschiedenen Großstädten der Welt anzeigen. Das Land, indem sich die Stadt befindet wird automatisch angezeigt.
 
 ## Warum?
 Wir wollen die Wetteranzeigen verständlicher und einfacher anzeigen. Damit man schneller das gewünschte Wetter am gewünschten Datum finden kann.
