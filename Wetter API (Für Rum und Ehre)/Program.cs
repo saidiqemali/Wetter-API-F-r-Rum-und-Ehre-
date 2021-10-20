@@ -11,22 +11,21 @@ namespace Wetter_API__Für_Rum_und_Ehre_
             //api.openweathermap.org/data/2.5/weather?q={city name}&appid={API key}
             //14ef7fc4abca59f2800df70ab9c334f6
 
+
             Console.WriteLine(" Stadt eintragen");
-       
             string city = Console.ReadLine();
+
 
             HttpClient httpClient = new HttpClient();
 
             string requestUri = "https://api.openweathermap.org/data/2.5/weather?q=" + city + "&appid=14ef7fc4abca59f2800df70ab9c334f6&units=metric";
 
             HttpResponseMessage httpResponse = httpClient.GetAsync(requestUri).Result;
-
-
-
             string response = httpResponse.Content.ReadAsStringAsync().Result;
-
-
+            
             weatherMapResponse weatherMapResponse = JsonConvert.DeserializeObject<weatherMapResponse>(response);
+
+
 
             Console.WriteLine(" - In " + city + " ist es " + weatherMapResponse.main.temp + " Grad");
             Console.WriteLine("\n");
@@ -37,7 +36,6 @@ namespace Wetter_API__Für_Rum_und_Ehre_
             Console.WriteLine("\n");
 
             Console.WriteLine(" Standort Beschreibung");
-
             Console.WriteLine("-  Die Stadt " + city + " befindet sich in '" + weatherMapResponse.sys.country + "'");
             Console.WriteLine("\n");
             
@@ -56,9 +54,6 @@ namespace Wetter_API__Für_Rum_und_Ehre_
         public Main main;
         public Main coord;
         public Main sys;
-    
-
-
     }
 
     class Main
@@ -71,6 +66,5 @@ namespace Wetter_API__Für_Rum_und_Ehre_
         public float lat;
         public string country;
         public string description;
-
     }
 }
