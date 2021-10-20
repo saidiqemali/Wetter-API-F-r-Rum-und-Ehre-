@@ -42,10 +42,10 @@ T: Am Ende der Woche soll die Wetter API fertig und funktionsfähig sein. Unter 
 
 ## Team Kodex:
 
-Wir halten uns alle an die abgemachten Regeln:
+- Wir halten uns alle an die abgemachten Regeln:
 
-Wir bleiben immer ernsthaft bei der Arbeit.
+- Wir bleiben immer ernsthaft bei der Arbeit.
 
-Wir arbeiten im Team am selben Projekt. Alle dürfen daran arbeiten, niemand wird ausgeschlossen. Und schauen, dass wir unsere geplanten Termine einhalten.
+- Wir arbeiten im Team am selben Projekt. Alle dürfen daran arbeiten, niemand wird ausgeschlossen. Und schauen, dass wir unsere geplanten Termine einhalten.
 
-Wir sprechen uns bei allen ab und respektieren die Regeln.
+- Wir sprechen uns bei allen ab und respektieren die Regeln.
