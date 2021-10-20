@@ -11,7 +11,7 @@ namespace Wetter_API__Für_Rum_und_Ehre_
             //api.openweathermap.org/data/2.5/weather?q={city name}&appid={API key}
             //14ef7fc4abca59f2800df70ab9c334f6
 
-            Console.WriteLine("Stadt eintragen");
+            Console.WriteLine(" Stadt eintragen");
             string city = Console.ReadLine();
 
             HttpClient httpClient = new HttpClient();
@@ -26,7 +26,14 @@ namespace Wetter_API__Für_Rum_und_Ehre_
 
 
             weatherMapResponse weatherMapResponse = JsonConvert.DeserializeObject<weatherMapResponse>(response);
-            Console.WriteLine(" In " + city + " ist " + weatherMapResponse.main.temp + " Grad");
+            Console.WriteLine(" In " + city + " ist es " + weatherMapResponse.main.temp + " Grad");
+            Console.WriteLine("\n");
+            Console.WriteLine(" Die minimale Temperatur in " + city + " baetregt " + weatherMapResponse.main.temp_min + " Grad");
+            Console.WriteLine(" Die maximale Temperatur in " + city + " baetregt " + weatherMapResponse.main.temp_max + " Grad");
+            Console.WriteLine("\n");
+            Console.WriteLine(" Die Feuchtigkeit in " + city + " baetregt " + weatherMapResponse.main.humidity);
+            Console.WriteLine("\n");
+            Console.WriteLine("Die Stadt " + city + " befindet sich in " + weatherMapResponse.main.country);
 
 
 
@@ -42,5 +49,10 @@ namespace Wetter_API__Für_Rum_und_Ehre_
     class Main
     {
         public float temp;
+        public float temp_max;
+        public float temp_min;
+        public float humidity;
+        public string country;
+
     }
 }
