@@ -17,7 +17,7 @@ Wir wollen die Wetteranzeigen verständlicher und einfacher anzeigen. Damit man 
 Als erstes haben wir dieses GitHub Repository erstelt und dann verschiedene Commits gemacht.
  
 ## API-Link:
- 
+ https://openweathermap.org/
  
 ## SMART Ziele:
 S-Spezifisch die verschiedenen Aufgaben, die wir erledigt haben formulieren.
