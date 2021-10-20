@@ -14,7 +14,7 @@ Wir wollen die Wetteranzeigen verständlicher und einfacher anzeigen. Damit man 
 
 
 ## Idee Umsetzung:
-Als erstes haben wir dieses GitHub Repository erstelt und dann verschiedene Commits gemacht. Dann haben wir angefangen auf Visual Studio 2019 zu programmieren.
+Als erstes haben wir dieses GitHub Repository erstelt und dann verschiedene Commits gemacht. Dann haben wir angefangen auf Visual Studio 2019 zu programmieren. wir haben eine Console Application (Net. Core) auf VS 2019 erstellt. Und dort dann programmiert.
  
 ## API-Link:
  https://openweathermap.org/
