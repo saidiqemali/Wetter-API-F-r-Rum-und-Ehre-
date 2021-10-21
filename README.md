@@ -1,5 +1,8 @@
 ## Wetter API       Für Ruhm und Ehre
 
+![image](https://user-images.githubusercontent.com/90248281/138290909-fd4d1bda-0e8a-41fd-a9bd-953875f7c7c0.png)
+
+
 ## Teammitglieder:
 
 - Leon Heid
