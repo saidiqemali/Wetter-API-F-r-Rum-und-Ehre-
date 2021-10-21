@@ -1,5 +1,6 @@
 ## Wetter API       Für Ruhm und Ehre
 
+
 ![image](https://user-images.githubusercontent.com/90248281/138290909-fd4d1bda-0e8a-41fd-a9bd-953875f7c7c0.png)
 
 
@@ -24,7 +25,7 @@ Wir wollen die Wetteranzeigen verständlicher und einfacher anzeigen. Damit man 
 
 Als erstes haben wir dieses Git Hub Repository erstelt, eine README geaddet, den C# code hinzugefügt und dann verschiedene Commits gemacht (Commits füf die README, für den C# Code...).
 Danach haben wir auf Git Hub ein "Kanban Board" erstellt, in dem wir drei Kategorien gemacht und geschrieben haben, was wir tun wollten (To Do), was wir gerade machen (In Progress) und was wir bereits abgeschlossen haben (Done).
-Dann haben wir angefangen auf Visual Studio 2019 zu programmieren. Wir haben eine Console Application (Net. Core) auf VS 2019 erstellt. Und dort dann programmiert...
+Dann haben wir angefangen auf Visual Studio 2019 zu programmieren. Wir haben eine Console Application (Net. Core) auf VS 2019 erstellt. Und dort dann programmiert... Jetzt ist das Programm beendet und funktionstücktig. 
  
 
 ## API-Link:
