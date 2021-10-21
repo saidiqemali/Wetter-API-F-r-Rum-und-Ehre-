@@ -9,7 +9,7 @@
 
 ## Unsere Idee:
 
-Wir wollen das Wetter in verschiedenen Großstädten der Welt anzeigen. Das Land, indem sich die Stadt befindet wird automatisch angezeigt. Weitere Sachen, die man sehen kann ist die min. und max. Temperatur, die in dieser Stadt ist. Mann kann auch die unterschiedliche Feuchtigkeit sehen.
+Wir wollen das Wetter in verschiedenen Großstädten der Welt anzeigen. Das Land, indem sich die Stadt befindet wird automatisch angezeigt. Weitere Sachen, die man sehen kann ist die min. und max. Temperatur, die in dieser Stadt ist. Mann kann auch die unterschiedliche Feuchtigkeit sehen. Dazu kann mann noch den Breitengrad und Längengrad erkennen.
 
 
 ## Warum?
