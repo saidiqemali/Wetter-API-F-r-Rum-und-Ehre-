@@ -14,7 +14,7 @@ Wir wollen das Wetter in verschiedenen Großstädten der Welt anzeigen. Das Land
 
 ## Warum?
 
-Wir wollen die Wetteranzeigen verständlicher und einfacher anzeigen. Damit man schneller das gewünschte Wetter am gewünschten Datum finden kann.
+Wir wollen die Wetteranzeigen verständlicher und einfacher anzeigen. Damit man schneller das gewünschte Wetter am gewünschten Datum finden kann. Wir wollen das man eine Stadt suchen kann und dann die Daten dazu angezeigt werden.
 
 
 ## Idee Umsetzung:
