@@ -1,4 +1,4 @@
-## Wetter API       Für Rum und Ehre
+## Wetter API       Für Ruhm und Ehre
 
 ## Teammitglieder:
 
@@ -14,17 +14,19 @@ Wir wollen das Wetter in verschiedenen Großstädten der Welt anzeigen. Das Land
 
 ## Warum?
 
-Wir wollen die Wetteranzeigen verständlicher und einfacher anzeigen. Damit man schneller das gewünschte Wetter am gewünschten Datum finden kann. Wir wollen das man eine Stadt suchen kann und dann die Daten dazu angezeigt werden.
+Wir wollen die Wetteranzeigen verständlicher und einfacher anzeigen. Damit man schneller das gewünschte Wetter am gewünschten Datum finden kann. Wir wollen das man eine Stadt suchen kann und Informationen über das Wetter in der Stadt undurchsichtiger erhalten.
 
 
 ## Idee Umsetzung:
 
-Als erstes haben wir dieses GitHub Repository erstelt und dann verschiedene Commits gemacht. Dann haben wir angefangen auf Visual Studio 2019 zu programmieren. wir haben eine Console Application (Net. Core) auf VS 2019 erstellt. Und dort dann programmiert.
+Als erstes haben wir dieses Git Hub Repository erstelt, eine README geaddet, den C# code hinzugefügt und dann verschiedene Commits gemacht (Commits füf die README, für den C# Code...).
+Danach haben wir auf Git Hub ein "Kanban Board" erstellt, in dem wir drei Kategorien gemacht und geschrieben haben, was wir tun wollten (To Do), was wir gerade machen (In Progress) und was wir bereits abgeschlossen haben (Done).
+Dann haben wir angefangen auf Visual Studio 2019 zu programmieren. Wir haben eine Console Application (Net. Core) auf VS 2019 erstellt. Und dort dann programmiert...
  
 
 ## API-Link:
 
- https://openweathermap.org/
+ Das ist der API-Link von wo wir die Informationen über das Wetter erhalten : "https://openweathermap.org/"
  
 
 ## SMART Ziele:
