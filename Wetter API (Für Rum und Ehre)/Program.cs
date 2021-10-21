@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Net.Http;
 using Newtonsoft.Json;
 
@@ -8,44 +8,45 @@ namespace Wetter_API__Für_Rum_und_Ehre_
     {
         static void Main(string[] args)
         {
-            //api.openweathermap.org/data/2.5/weather?q={city name}&appid={API key}
-            //14ef7fc4abca59f2800df70ab9c334f6
+            //api.openweathermap.org/data/2.5/weather?q={city name}&appid={API key}                                                                                  // API zugreifen
+            //14ef7fc4abca59f2800df70ab9c334f6                                                                                                                       // API Passwort/Key (jede user kann eine eigene API Key erstellen)
 
 
-            Console.WriteLine(" Stadt eintragen");
-            string city = Console.ReadLine();
+            Console.WriteLine(" Stadt eintragen");                                                                                                                   // Ausgabe : beliebige Stadt eingeben 
+            string city = Console.ReadLine();                                                                                                                        // Die Stadt wo eingegeben wird = String city
 
 
-            HttpClient httpClient = new HttpClient();
+            HttpClient httpClient = new HttpClient();                                                                                                                // neues client erstellen
 
-            string requestUri = "https://api.openweathermap.org/data/2.5/weather?q=" + city + "&appid=14ef7fc4abca59f2800df70ab9c334f6&units=metric";
+            string requestUri = "https://api.openweathermap.org/data/2.5/weather?q=" + city + "&appid=14ef7fc4abca59f2800df70ab9c334f6&units=metric";                // "Anfrage" zum API zugreifen
 
-            HttpResponseMessage httpResponse = httpClient.GetAsync(requestUri).Result;
-            string response = httpResponse.Content.ReadAsStringAsync().Result;
-            
-            weatherMapResponse weatherMapResponse = JsonConvert.DeserializeObject<weatherMapResponse>(response);
+            HttpResponseMessage httpResponse = httpClient.GetAsync(requestUri).Result;                                                                               // Antwort
+            string response = httpResponse.Content.ReadAsStringAsync().Result;                                                                                       // Antwort
+
+            weatherMapResponse weatherMapResponse = JsonConvert.DeserializeObject<weatherMapResponse>(response);                                                     // Ergebnis von json in "c#" umwandeln
 
 
 
-            Console.WriteLine(" - In " + city + " ist es " + weatherMapResponse.main.temp + " Grad Celsius");
-            Console.WriteLine("\n");
-            Console.WriteLine(" - Die minimale Temperatur in " + city + " betraegt " + weatherMapResponse.main.temp_min + " Grad");
-            Console.WriteLine(" - Die maximale Temperatur in " + city + " betraegt " + weatherMapResponse.main.temp_max + " Grad");
-            Console.WriteLine("\n");
-            Console.WriteLine(" - Die Feuchtigkeit in " + city + " betraegt " + weatherMapResponse.main.humidity);
-            Console.WriteLine("\n");
+            Console.WriteLine(" - In " + city + " ist es " + weatherMapResponse.main.temp + " Grad"); // "temp" value ausgeben
+            Console.WriteLine("\n"); // Leerzeile
+            Console.WriteLine(" - Die minimale Temperatur in " + city + " baetregt " + weatherMapResponse.main.temp_min + " Grad"); // "temp_min" value ausgeben
+            Console.WriteLine(" - Die maximale Temperatur in " + city + " baetregt " + weatherMapResponse.main.temp_max + " Grad"); // "temp_max" value ausgeben
+            Console.WriteLine("\n"); // Leerzeile
+
+            Console.WriteLine(" - Die Feuchtigkeit in " + city + " baetregt " + weatherMapResponse.main.humidity); // "humidity" value ausgeben
+            Console.WriteLine("\n"); // Leerzeile
 
             Console.WriteLine(" Standort Beschreibung");
-            Console.WriteLine("-  Die Stadt " + city + " befindet sich in '" + weatherMapResponse.sys.country + "'");
-            Console.WriteLine("\n");
-            
+            Console.WriteLine("-  Die Stadt " + city + " befindet sich in '" + weatherMapResponse.sys.country + "'"); // "country" value ausgeben
+            Console.WriteLine("\n"); // Leerzeile
 
-            Console.WriteLine(" - Die Koordinaten von " + city + " sind" + "\n" + " - Breitengrad = " + weatherMapResponse.coord.lat + "\n" + " - Längengrad = " + weatherMapResponse.coord.lon);
-            Console.WriteLine("\n");
-     
+            Console.WriteLine(" - Die Koordinaten von " + city + " sind" + "\n" + " - Breitengrad = " + weatherMapResponse.coord.lat + "\n" + " - Längengrad = " + weatherMapResponse.coord.lon); // "lat" value und "lon" value ausgeben
+            Console.WriteLine("\n"); // Leerzeile
+
 
 
             Console.ReadKey();
+
         }
     }
 
@@ -68,3 +69,4 @@ namespace Wetter_API__Für_Rum_und_Ehre_
         public string description;
     }
 }
+
