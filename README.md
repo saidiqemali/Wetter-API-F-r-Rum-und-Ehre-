@@ -30,7 +30,7 @@ Dann haben wir angefangen auf Visual Studio 2019 zu programmieren. Wir haben ein
 
 ## API-Link:
 
- Das ist der API-Link von wo wir die Informationen über das Wetter erhalten : "https://openweathermap.org/"
+Der Link zur API, die wir genutzt haben, um Informationen über das Wetter zu erhalten, ist hier: "https://openweathermap.org/"
  
 
 ## SMART Ziele:
