@@ -29,11 +29,11 @@ namespace Wetter_API__Für_Rum_und_Ehre_
 
             Console.WriteLine(" - In " + city + " ist es " + weatherMapResponse.main.temp + " Grad"); // "temp" value ausgeben
             Console.WriteLine("\n"); // Leerzeile
-            Console.WriteLine(" - Die minimale Temperatur in " + city + " baetregt " + weatherMapResponse.main.temp_min + " Grad"); // "temp_min" value ausgeben
-            Console.WriteLine(" - Die maximale Temperatur in " + city + " baetregt " + weatherMapResponse.main.temp_max + " Grad"); // "temp_max" value ausgeben
+            Console.WriteLine(" - Die minimale Temperatur in " + city + " betraegt " + weatherMapResponse.main.temp_min + " Grad"); // "temp_min" value ausgeben
+            Console.WriteLine(" - Die maximale Temperatur in " + city + " betraegt " + weatherMapResponse.main.temp_max + " Grad"); // "temp_max" value ausgeben
             Console.WriteLine("\n"); // Leerzeile
 
-            Console.WriteLine(" - Die Feuchtigkeit in " + city + " baetregt " + weatherMapResponse.main.humidity); // "humidity" value ausgeben
+            Console.WriteLine(" - Die Feuchtigkeit in " + city + " betraegt " + weatherMapResponse.main.humidity); // "humidity" value ausgeben
             Console.WriteLine("\n"); // Leerzeile
 
             Console.WriteLine(" Standort Beschreibung");
